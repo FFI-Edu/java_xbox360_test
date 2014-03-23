@@ -82,8 +82,8 @@ class Visual extends JPanel
     
     public void friend (Graphics g,int x, int y)
     {
-        g.setColor(new Color(0, 250, 0, 100) ); 
-        g.fillOval(250+y-5, 250+(x*-1)-5, 10, 10) ;
+        g.setColor(new Color(0, 150, 0, 100) ); 
+        g.fillOval(250+y-10, 250+(x*-1)-10, 20, 20) ;
     }
     
     public void enemy (Graphics g,int x, int y)
